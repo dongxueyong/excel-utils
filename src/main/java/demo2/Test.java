@@ -1,4 +1,5 @@
-import bean.DemoPO;
+package demo2;
+
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
@@ -13,7 +14,7 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
 
-        String strPath = "/Users/dongxueyong/Desktop/解析Excel/1/粮食报表/小麦(1).xlsx";
+        String strPath = "/Users/dongxueyong/Desktop/aaa.xlsx";
         try {
             InputStream is = new FileInputStream(strPath);
             List<Object[]> objext = readExcelToObj(is,256);

@@ -1,4 +1,4 @@
-package bean;
+package demo2;
 
 public class DemoPO {
     private String s1;
